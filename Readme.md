@@ -3,18 +3,22 @@
 ## Forked and adjusted for Gabz UwU Cafe MLO
 
 # Additions made to following files for script to work
-# qb-smallresources
-# dpemotes
-# qb-core/smallresources
-# qb-core/shared/jobs
-# qb-core/shared/items
-# qb-core/config.lua
-# qb-core/html/css/style.css
-# qb-shops
-# Option to add Peds in client.lua
 
+```
+qb-smallresources
+dpemotes
+qb-core/smallresources
+qb-core/shared/jobs
+qb-core/shared/items
+qb-core/config.lua
+qb-core/html/css/style.css
+qb-shops
+Option to add Peds in client.lua
+```
 
-# Add to qb-target/config.lua      Cat on the counter to open the store or change model to your liking ;)
+# Add to qb-target/config.lua
+Cat on the counter to open the store or change model to your liking ;)
+```
 ["uwu"] = {
 		models = {
 			"A_C_Cat_01"
@@ -30,23 +34,29 @@
 		distance = 4.0
 	},
 
-
-# Add to qb-core/config.lua    QBConfig.Notify.VariantDefinitions for notifications to work or you will need to change to default.
+```
+# Add to qb-core/config.lua    
+QBConfig.Notify.VariantDefinitions for notifications to work or you will need to change to default.
+```
 uwu = {
         classes = 'uwu',
         icon = 'fas fa-cat',
         position = 'bottom'
     },
+```
 
 # Add to qb-core/html/css/style.css
+```
 .uwu {
     background-color: rgba(23, 23, 23, 90%);
     border-radius: 13px;
     box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
     border-left: 5px solid #ed74f1
 }
+```
 
 # Add to qb-core/shared/jobs.lua
+```
 ["uwu"] = {
 		label = "uWu Cafe",
 		defaultDuty = true,
@@ -72,8 +82,10 @@ uwu = {
 			},
 		},
 	},
+```
 
 # Add to qb-shops/config.lua
+```
 ["uwu"] = {
         [1] = {
             name = "uwububbleteablueberry",
@@ -156,9 +168,11 @@ uwu = {
             slot = 10,
         },
     },
+```
 
 # Add to dpemotes/client/animationlist.lua
-# under DP.PropEmotes = {
+```
+DP.PropEmotes = {
     ["bubbletea"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "", AnimationOptions =
     {
         Prop = 'apa_prop_cs_plastic_cup_01',
@@ -193,7 +207,7 @@ uwu = {
         EmoteLoop = true,
         EmoteMoving = true,
     }},
-
+```
 
 ## Dependencies :
 QBCore Framework - https://github.com/qbcore-framework/qb-core
