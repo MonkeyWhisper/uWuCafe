@@ -497,8 +497,8 @@ RegisterNetEvent("qb-uwu:cSandwich", function()
 	end
 end)
 
-RegisterNetEvent("qb-uwu:fridge", function()
-    TriggerServerEvent("inventory:server:OpenInventory", "cold store", "uwu", Config.Items)
+RegisterNetEvent("qb-uwu:shop", function()
+    TriggerServerEvent("inventory:server:OpenInventory", "shop", "uwu", Config.Items)
 end)
 
 

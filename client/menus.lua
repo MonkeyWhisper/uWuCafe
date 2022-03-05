@@ -225,7 +225,7 @@ RegisterNetEvent('uwu:stock', function(data)
             header = "• Browse Ingredients",
             txt = "Availability access",
             params = {
-                event = "qb-uwu:fridge"
+                event = "qb-uwu:shop"
             }
         },
         {
@@ -236,8 +236,11 @@ RegisterNetEvent('uwu:stock', function(data)
             }
         },
         {
-            header = "Close (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
@@ -258,8 +261,11 @@ RegisterNetEvent('uwu:pancake', function(data)
             }
         },
         {
-            header = "Close Menu (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
@@ -279,8 +285,11 @@ RegisterNetEvent('uwu:misoSoup', function(data)
             }
         },
         {
-            header = "Close Menu (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
@@ -300,8 +309,11 @@ RegisterNetEvent('uwu:cupcake', function(data)
             }
         },
         {
-            header = "Close Menu (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
@@ -349,8 +361,11 @@ RegisterNetEvent('uwu:sandysushi', function(data)
             }
         },
         {
-            header = "Close Menu (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
@@ -384,8 +399,11 @@ RegisterNetEvent('uwu:DrinkMenu', function(data)
             }
         },
         {
-            header = "Close Menu (ESC)",
-            txt = "",
+            header = "⬅ Close Menu",
+            txt = 'meOw',
+            params = {
+                event = 'qb-menu:closeMenu',
+            }
         },
     })
 end)
