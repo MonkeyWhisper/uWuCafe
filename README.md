@@ -7,19 +7,7 @@ Put stream folder into dpemotes folder
 Put contents of Icons into ..[qb]\qb-inventory\html\images
 
 -----------------------------------------------------------------------------------------------
---Put into shared.lua
-
-["uwububbleteablueberry"]	= {["name"] = "uwububbleteablueberry",	["label"] = "Berry Blue B-T",		["weight"] = 200,	["type"] = "item",	["image"] = "uwububbleteablueberry.png",	["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Lavender Tea with Blueberry Boba."},
-["uwububbletearose"]		= {["name"] = "uwububbletearose",	["label"] = "Rosey B-T",		["weight"] = 200,	["type"] = "item",	["image"] = "uwububbletearose.png",			  ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Sakura Rose Tea with Vanilla Boba."},
-["uwububbleteamint"]		= {["name"] = "uwububbleteamint",	["label"] = "Minty B-T",		["weight"] = 200,	["type"] = "item",	["image"] = "uwububbleteamint.png",			  ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Matcha Tea with Mint Boba."},
-["uwupancake"]			= {["name"] = "uwupancake",		["label"] = "uWu Savory Pancake", 	["weight"] = 200,	["type"] = "item",	["image"] = "uwupancake.png",				      ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Korean savory pancake made with scallions."},
-["uwucupcake"]			= {["name"] = "uwucupcake",		["label"] = "uWu Cupcake",		["weight"] = 200,	["type"] = "item",	["image"] = "uwucupcake.png",				      ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Sugar Kitty Cupcake!"},
-["uwuvanillasandy"]		= {["name"] = "uwuvanillasandy",	["label"] = "uWu V-Icecream Sandy",	["weight"] = 200,	["type"] = "item",	["image"] = "uwuvanillasandy.png",			  ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Sweet Vanilla Biscuit filled with Icecreamy!"},
-["uwuchocsandy"]		= {["name"] = "uwuchocsandy",		["label"] = "uWu C-Icecream Sandy",	["weight"] = 200,	["type"] = "item",	["image"] = "uwuchocsandy.png",				    ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Sweet Chocolate Biscuit filled with Icecreamy!"},
-["uwubudhabowl"]		= {["name"] = "uwubudhabowl",		["label"] = "uWu Budha Bowl",		["weight"] = 200,	["type"] = "item",	["image"] = "uwubudhabowl.png",				    ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Bowl of nourishment and balance."},
-["uwusushi"]			= {["name"] = "uwusushi",		["label"] = "uWu Sushi",		["weight"] = 200,	["type"] = "item",	["image"] = "uwusushi.png",					      ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Designed as a window to your soul."},
-["uwumisosoup"]			= {["name"] = "uwumisosoup",		["label"] = "uWu Miso Soup",		["weight"] = 200,	["type"] = "item",	["image"] = "uwumisosoup.png",				    ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "Fungus never tasted so good!"},
-["uwubentobox"]			= {["name"] = "uwubentobox",		["label"] = "uWu Bento Box",		["weight"] = 200,	["type"] = "item",	["image"] = "uwubentobox.png",				    ["unique"] = false,	["useable"] = true,	["shouldClose"] = true,	["combinable"] = nil,   ["description"] = "An uWu Selection with a surprise!"},
+--Put items from shared into shared.lua
 
 ------------------------------------------------------------------------------------------------
 --Add to qb-shops/config.lua
