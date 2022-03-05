@@ -13,13 +13,30 @@
 # qb-shops
 # Option to add Peds in client.lua
 
+
+# Add to qb-target/config.lua      Cat on the counter to open the store or change model to your liking ;)
+["uwu"] = {
+		models = {
+			"A_C_Cat_01"
+		},
+		options = {
+			{
+				type = "client",
+				event = "idrp-shops:marketshop",
+				icon = "fas fa-shopping-basket",
+				label = "Open Shop",
+			},
+		},
+		distance = 4.0
+	},
+
+
 # Add to qb-core/config.lua    QBConfig.Notify.VariantDefinitions for notifications to work or you will need to change to default.
 uwu = {
         classes = 'uwu',
         icon = 'fas fa-cat',
         position = 'bottom'
     },
-
 
 # Add to qb-core/html/css/style.css
 .uwu {
@@ -57,7 +74,6 @@ uwu = {
 	},
 
 # Add to qb-shops/config.lua
-
 ["uwu"] = {
         [1] = {
             name = "uwububbleteablueberry",
