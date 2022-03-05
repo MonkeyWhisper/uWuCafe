@@ -7,9 +7,10 @@ RegisterServerEvent("qb-uwu:bill:player", function(playerId, amount)
     local amount = tonumber(amount)
     if biller.PlayerData.job.name == 'uwu' then
         if billed ~= nil then
-            if biller.PlayerData.citizenid == billed.PlayerData.citizenid then
+            if biller.PlayerData.citizenid ~= billed.PlayerData.citizenid then
                 if amount and amount > 0 then
-                    MySQL.Async.insert('INSERT INTO phone_invoices (citizenid, amount, society, sender) VALUES (:citizenid, :amount, :society, :sender)', {
+                    MySQL.Async.insert('INSERT INTO phone_invoices (citizenid, amount, society, sender) VALUES (:citizenid, :amount, :society, :sender)',
+                    {
                         ['citizenid'] = billed.PlayerData.citizenid,
                         ['amount'] = amount,
                         ['society'] = biller.PlayerData.job.name,
@@ -23,13 +24,11 @@ RegisterServerEvent("qb-uwu:bill:player", function(playerId, amount)
                 TriggerClientEvent('QBCore:Notify', source, 'Must Be A Valid Amount Above 0', 'uwu')
             end
         else
-            TriggerClientEvent('QBCore:Notify', source, 'You Cannot Bill Yourself', 'uwu')
+            TriggerClientEvent('QBCore:Notify', source, 'You Cannot Bill Yourself', 'error')
         end
     else
         TriggerClientEvent('QBCore:Notify', source, 'Player Not Online', 'uwu')
     end
-else
-    TriggerClientEvent('QBCore:Notify', source, 'No Access', 'uwu')
 end)
 
 --Bentobox--
